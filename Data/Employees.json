@@ -1,0 +1,32 @@
+[
+  {
+    "id": "46882e46-5615-45f0-b125-27217d841359",
+    "name": "New Employee",
+    "email": "vuquanganh@gmail.com",
+    "phone": "0886718203",
+    "dateOfBirth": "0001-01-01T00:00:00",
+    "address": "ok",
+    "employeeId": "EMP001",
+    "hireDate": "0001-01-01T00:00:00",
+    "position": "Unassigned",
+    "baseSalary": 0,
+    "departmentId": "DEP001",
+    "status": "Active",
+    "employeeType": "Regular"
+  },
+  {
+    "id": "b9d278b4-a56e-4f59-9fba-f81b61810817",
+    "name": "V\u0169 Quang Anh test update",
+    "email": "vuquanganhtest@gmail.com",
+    "phone": "0886718203",
+    "dateOfBirth": "0001-01-01T00:00:00",
+    "address": "CT8A-D\u01B0\u01A1ng N\u1ED9i- H\u00E0 \u0110\u00F4ng -  H\u00E0 N\u1ED9i",
+    "employeeId": "EMP002",
+    "hireDate": "0001-01-01T00:00:00",
+    "position": "Unassigned",
+    "baseSalary": 0,
+    "departmentId": "DEP001",
+    "status": "Active",
+    "employeeType": "Regular"
+  }
+]
