@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
 namespace HRManagementSystem
 {
@@ -149,9 +146,9 @@ namespace HRManagementSystem
                     cmd.Parameters.AddWithValue("@Position", entity.Position);
                     cmd.Parameters.AddWithValue("@BaseSalary", entity.BaseSalary);
                     cmd.Parameters.AddWithValue("@DepartmentId", entity.DepartmentId ?? (object)DBNull.Value);
-                    cmd.Parameters.AddWithValue("@Status", (int)entity.Status); 
+                    cmd.Parameters.AddWithValue("@Status", (int)entity.Status);
                     cmd.Parameters.AddWithValue("@EmployeeType", entity.EmployeeType ?? (object)DBNull.Value);
-                    cmd.Parameters.AddWithValue("@AnnualBonus", 0); 
+                    cmd.Parameters.AddWithValue("@AnnualBonus", 0);
 
                     return cmd.ExecuteNonQuery() > 0;
                 }

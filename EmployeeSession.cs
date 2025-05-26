@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace HRManagementSystem
+﻿namespace HRManagementSystem
 {
     public class EmployeeSession
     {

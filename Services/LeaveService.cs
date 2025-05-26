@@ -4,7 +4,7 @@ namespace HRManagementSystem
 {
     public class LeaveService
     {
-      
+
         private List<LeaveRequest> leaveRequests;
 
         private readonly string connectionString;
@@ -79,8 +79,8 @@ namespace HRManagementSystem
 
             return "LVE001";
         }
-       
-     
+
+
 
         public bool ApproveLeaveRequest(string requestId, string approverId)
         {
@@ -96,7 +96,7 @@ namespace HRManagementSystem
             return cmd.ExecuteNonQuery() > 0;
         }
 
-      
+
 
         public bool RejectLeaveRequest(string requestId, string approverId, string rejectionReason)
         {
@@ -213,7 +213,7 @@ namespace HRManagementSystem
         }
 
 
-      
+
         public List<LeaveRequest> GetEmployeeMonthlyLeaves(string employeeId, int year, int month)
         {
             List<LeaveRequest> result = new List<LeaveRequest>();
@@ -266,7 +266,7 @@ namespace HRManagementSystem
         }
 
 
-        
-       
+
+
     }
 }
